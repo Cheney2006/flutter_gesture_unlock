@@ -4,13 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gesture_unlock/gesture_unlock_view.dart';
 
 class UnlockPoint {
-  double x;
-  double y;
-  bool isSelect = false;
+  final double x;
+  final double y;
+  final bool isSelect = false;
   UnlockStatus status = UnlockStatus.normal;
-  int position;
+  final int position;
 
-  UnlockPoint({@required this.x, @required this.y, @required this.position});
+  UnlockPoint({required this.x, required this.y, required this.position});
 
   Offset toOffset() {
     return Offset(x, y);
