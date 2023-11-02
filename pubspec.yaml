@@ -1,11 +1,11 @@
 name: flutter_gesture_unlock
 description: A gesture unlock package.
-version: 1.0.5
+version: 2.0.5
 author: cy<27749591@qq.com>
 homepage: https://github.com/cy20061121/flutter_gesture_unlock
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
